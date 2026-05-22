@@ -1,0 +1,17 @@
+name: FindMyNextFieldAPI
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_USER: admin
+      POSTGRES_DB: findmynextfield
+    volumes:
+      - pgdata:/var/lib/postgresql
+    ports:
+      - 5434:5432
+
+volumes:
+  pgdata:
