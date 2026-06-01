@@ -1,4 +1,4 @@
-package org.fmnf.findmynextfieldapi.domain.user;
+package org.fmnf.findmynextfieldapi.models.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

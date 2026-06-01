@@ -1,4 +1,4 @@
-package org.fmnf.findmynextfieldapi.domain.event;
+package org.fmnf.findmynextfieldapi.models.event;
 
 public enum EventStatus {
 

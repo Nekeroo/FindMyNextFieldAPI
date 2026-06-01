@@ -1,11 +1,11 @@
-package org.fmnf.findmynextfieldapi.domain.registration;
+package org.fmnf.findmynextfieldapi.models.registration;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.fmnf.findmynextfieldapi.domain.event.Event;
-import org.fmnf.findmynextfieldapi.domain.user.User;
+import org.fmnf.findmynextfieldapi.models.event.Event;
+import org.fmnf.findmynextfieldapi.models.user.User;
 
 @Entity
 @Table(name = "registrations")
