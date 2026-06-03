@@ -1,4 +1,4 @@
-package org.fmnf.findmynextfieldapi.models.register;
+package org.fmnf.findmynextfieldapi.models.inputs;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

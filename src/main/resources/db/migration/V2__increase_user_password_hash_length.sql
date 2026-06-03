@@ -1,0 +1,2 @@
+ALTER TABLE userinfos
+    ALTER COLUMN passwordHash TYPE VARCHAR(255);

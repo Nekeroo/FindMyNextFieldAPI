@@ -1,8 +1,10 @@
 package org.fmnf.findmynextfieldapi.controllers;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/events")
+@RestController
+@RequestMapping("/events")
 public class EventController {
 
     /*
